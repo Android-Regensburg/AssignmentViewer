@@ -4,11 +4,11 @@
 import Assignment from "./Assignment.js";
 
 const URL_TEMPLATE =
-    "https://raw.githubusercontent.com/$ORGANIZATION/$REPO/main/",
+    "https://raw.githubusercontent.com/$ORGANIZATION/$REPO/master/",
     DOWNLOAD_URL_TEMPLATE =
     "https://github.com/$ORGANIZATION/$REPO/archive/refs/heads/",
     GET_COMMITS_URL_TEMPLATE =
-    "https://api.github.com/repos/$ORGANIZATION/$REPO/commits?sha=main",
+    "https://api.github.com/repos/$ORGANIZATION/$REPO/commits?sha=master",
     CONFIG_FILE_NAME = "assignment.json",
     README_FILE_NAME = "README.md",
     ALTERNATIVE_README_FILE_NAME = "Readme.md",
