@@ -5,11 +5,11 @@ import AssignmentElement from "./AssignmentElement.js";
 class SupportElement extends AssignmentElement {
 
     constructor() {
-        //super(document.querySelector("#support-element-template"));
+        super(document.querySelector("#support-element-template"));
     }
 
     render(assignment) {
-        //super.render();
+        super.render();
     }
 
     reset() {
@@ -17,6 +17,5 @@ class SupportElement extends AssignmentElement {
     }
 
 }
-
 
 export default SupportElement;
